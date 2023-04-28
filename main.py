@@ -13,3 +13,9 @@ async def root():
 @app.get("/users")
 async def users():
 	return {"statusCode":200,"body":"hello users"}
+
+
+@app.get("/roles")
+async def users():
+	return {"statusCode":200,"body":"hello roles"}
+

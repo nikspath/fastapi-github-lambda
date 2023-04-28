@@ -7,7 +7,7 @@ handler=Mangum(app)
 
 @app.get("/")
 async def root():
-	return {"message":"hello world"}
+	return {"message":"my name is nikhil"}
 
 
 @app.get("/users")
